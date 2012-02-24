@@ -2,3 +2,10 @@ CTorrent
 =======
 CTorrent is a BitTorrent Client program written in C/C++ for FreeBSD and Linux.
 Fast and small are CTorrent`s two strengths.
+
+original ctorrent has a -e option means:
+-e int          Exit while seed <int> hours later (default 72 hours)
+this ctorrent_min modified -e option which now means:
+-e int          Exit while seed <int> minutes later (default 5 minutes)
+
+fine grain to control seed time
